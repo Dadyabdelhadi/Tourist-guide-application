@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context=".user.Monument_Hestorique.Monument_hestorique_Categorie">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contentt"
+            android:padding="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/button_back" />
+            <ImageView
+                android:background="@drawable/profile_icon"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:id="@+id/Login_SiningUp"
+                android:padding="5dp"
+                android:onClick="callRetailerScreen" />
+
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Places"
+            android:textSize="30sp"
+            android:fontFamily="@font/adamina"
+            android:textAllCaps="true"
+            android:padding="10dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp">
+            <RelativeLayout
+                android:id="@+id/boujloud"
+
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:background="@drawable/babboujlod"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#4D020101"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calligraffitti"
+                        android:text="Bab boujlod"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                    <RatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="3.5"
+                        android:layout_below="@+id/categories_title"
+                        />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:id="@+id/fesbali"
+
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:background="@drawable/fesbali"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#4D020101"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calligraffitti"
+                        android:text="Fes el bali"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                    <RatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="3.5"
+                        android:layout_below="@+id/categories_title"
+                        />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:background="@drawable/karawine"
+                android:id="@+id/karawine"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#4D020101"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calligraffitti"
+                        android:text="al-Qarawiyyin"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                    <RatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="3.5"
+                        android:layout_below="@+id/categories_title"
+                        />
+
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+            <RelativeLayout
+                android:id="@+id/boanani"
+
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:background="@drawable/bouanani"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#4D020101"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calligraffitti"
+                        android:text="Médersa Bou Inania de Fès"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                    <RatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="3.5"
+                        android:layout_below="@+id/categories_title"
+                        />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+            <RelativeLayout
+                android:id="@+id/palais"
+
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:background="@drawable/palais"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#4D020101"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calligraffitti"
+                        android:text="Palais Fes Yahya"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                    <RatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="3.5"
+                        android:layout_below="@+id/categories_title"
+                        />
+
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+            <RelativeLayout
+                android:id="@+id/jnansbil"
+
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:background="@drawable/jnansbile"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#4D020101"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calligraffitti"
+                        android:text="JNAN SBIL"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                    <RatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="3.5"
+                        android:layout_below="@+id/categories_title"
+                        />
+
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:id="@+id/njarin"
+
+            android:layout_width="340dp"
+            android:layout_height="170dp"
+            android:background="@drawable/njarine"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4D020101"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/calligraffitti"
+                    android:text="Nejjarine"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+                <RatingBar
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:layout_below="@+id/categories_title"
+                    />
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:id="@+id/darbtha"
+            android:layout_width="340dp"
+            android:layout_height="170dp"
+            android:background="@drawable/darelbt7a"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4D020101"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/calligraffitti"
+                    android:text="Dar Batha Fes Maroc | Medina"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+                <RatingBar
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:layout_below="@+id/categories_title"
+                    />
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

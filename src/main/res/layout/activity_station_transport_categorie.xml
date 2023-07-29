@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context=".user.Station_transport.Station_transport_Categorie">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contentt"
+            android:padding="20dp"
+            >
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_centerVertical="true"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:src="@drawable/button_back" />
+            <ImageView
+                android:background="@drawable/profile_icon"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:id="@+id/Login_SiningUp"
+                android:padding="5dp"
+                android:onClick="callRetailerScreen" />
+
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hotels"
+            android:textSize="30sp"
+            android:fontFamily="@font/adamina"
+            android:textAllCaps="true"
+            android:padding="10dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/raidfes"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/raidfes">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_marginTop="30dp"
+
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/maisonbleu"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/bleu2">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/laarosa"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/larousa3__1_">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:id="@+id/jnan"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/jnan_4">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:id="@+id/faraj"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/farj5">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

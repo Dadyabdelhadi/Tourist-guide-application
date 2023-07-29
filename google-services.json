@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "97953845060",
+    "firebase_url": "https://version1guidetourisme-default-rtdb.firebaseio.com",
+    "project_id": "version1guidetourisme",
+    "storage_bucket": "version1guidetourisme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97953845060:android:9eb16f8eff5962f1255111",
+        "android_client_info": {
+          "package_name": "com.abdelhadi.vesrion_1_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97953845060-1804muembc4vhbqj7om1bo3o5g174d76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdelhadi.vesrion_1_app",
+            "certificate_hash": "0879dae51bd272de716ca616c3f472fb060ce3dd"
+          }
+        },
+        {
+          "client_id": "97953845060-toefomte1al6ebmkg1fhf59v3emskj5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWU06nLM4GfIcAzhaEFxAIIun8g2m8Baw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97953845060-toefomte1al6ebmkg1fhf59v3emskj5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

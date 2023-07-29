@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    android:background="#AFAFAF"
+    >
+
+        <RelativeLayout
+            android:id="@+id/background_gradient_most"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/p_3"
+
+            >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#4D020101"
+             android:orientation="vertical"
+             android:gravity="center"
+    >
+
+        <TextView
+            android:id="@+id/mosts_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/calligraffitti"
+            android:text="Restaurant"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+            <RatingBar
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="3.5"
+                android:layout_below="@+id/categories_title"
+                />
+            <TextView
+                android:id="@+id/mosts_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jhgjgjgjgjhhgj" />
+
+
+        </LinearLayout>
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
